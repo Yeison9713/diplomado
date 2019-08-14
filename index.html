@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <head>
     <title>Diplomado</title>
     <meta charset="UTF-8">
@@ -8,67 +9,41 @@
         body {
             display: flex;
             flex-direction: column;
-            margin: 0;
-            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
         }
-
-        .header {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            background-color: #fff;
-            color: #000;
-            border-bottom: 1px solid #ccc;
-        }
-
-        .content-header {
-            display: flex;
-            align-items: center;
-            width: 100%;
-            max-width: 1010px;
-            justify-content: space-between;
-            padding: 26px 20px;
-        }
-
-        .header .logo{
+        
+        nav {
             display: flex;
             justify-content: space-around;
         }
-
-        .logo div {
-            /*width: 25%;*/
+        
+        .content-header {
+            display: flex;
+            justify-content: center;
+            /*align-items: center;*/
+            
         }
 
-        .header .logo img{
+        .logo img{
             height: 24px;
             width: 24px;
         }
-
-            .header .logo .letra{
-                height: 24px;
-                width: 24px;
-            }
-
-        .logo span i{
-            background-image: url('imagenes/letra.png')
-        }
-
-        main {
-            background-color: #fafafa;
-        }
-
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145378010-1"></script>
     <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-          gtag('config', 'UA-145378010-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-145378010-1');
     </script>
 
 </head>
+
 <body>
     <nav class="header">
         <div class="content-header">
@@ -77,19 +52,15 @@
                     <img class="icono" src="imagenes/instagram.png">
                 </div>
                 <div><span>|</span></div>
-                
                 <div>
                     <img class="letra" src="imagenes/letra.png" />
                 </div>
-
-
-
             </div>
-            <div class="search"><input placeholder="Busca"/></div>
+            <div class="search"><input placeholder="Busca" /></div>
             <div class="actions"><button>Entrar</button><button>Registrarse</button></div>
         </div>
     </nav>
     <main></main>
-
 </body>
+
 </html>
