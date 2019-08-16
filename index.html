@@ -15,7 +15,7 @@
             background: #fafafa;
         }
 
-        .content{
+        .content {
             width: 100%;
             height: 100%;
         }
@@ -88,22 +88,62 @@
         main {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
-            padding: 8px;
+            padding: 40px 20px 0;
             overflow: auto;
-            padding: 26px 28px 0;
-            width: 100%;
-            height: 100%;
         }
 
-        .main-content{
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% - 40px);
+            max-width: 990px;
+            margin-bottom: 25px;
+        }
+
+        .content-image {
             display: flex;
             justify-content: space-around;
-            width: 100%;
-            max-width: 990px;
+            border-radius: 15px
         }
 
+        .content-image img {
+            border-radius: 115px;
+            max-width: 70%;
+        }
 
+        .main-content .logo-insta {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .main-content .directives-insta {
+            display: flex;
+            flex-grow: 5;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .directives-insta div:nth-child(3) div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #estados{
+            display: flex;
+            justify-content: center;
+            width: calc(100% - 40px);
+            max-width: 990px;
+            margin-bottom: 25px;
+        }
+
+        #estados img{
+            max-width: 70%;
+            border-radius: 250px;
+        }
 
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -125,7 +165,6 @@
     <div class="content">
         <header class="main-header">
             <nav class="container">
-
                 <div class="logo">
                     <div>
                         <img class="icono" src="imagenes/iconoInstagra.png">
@@ -143,8 +182,52 @@
         </header>
         <main>
             <div class="main-content">
-                <div>logo</div>
-                <div>Espefificaciones</div>
+                <div class="logo-insta">
+                    <div class="content-image">
+                        <img src="imagenes/komercia.png" alt="">
+                    </div>
+                </div>
+                <div class="directives-insta">
+                    <div>
+                        <h1>komercia</h1>
+                        <button>Seguir</button>
+                    </div>
+                    <div>
+                        <a>124 Publicaciones</a>
+                        <a>124 seguidores</a>
+                        <a>124 seguidos</a>
+                    </div>
+                    <div>
+                        <span>komercia</span>
+                        <div>
+                            <span>Vende por internet</span>
+                            <span>Crea tu cuenta online</span>
+                            <span>Ventas@komercia.co📧</span>
+                            <a href="#">#komercia</a>
+                            <a href="#">#ecommerce</a>
+                            <a href="#">#Colombia</a>
+                            <a href="#">#tiendaOnline</a>
+                            <span>👇👇👇👇👇</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="estados">
+                <div><img
+                        src="https://instagram.fbog4-1.fna.fbcdn.net/vp/f65afb2d5c93c29f0a658396a7c5230e/5DDB404F/t51.2885-19/s150x150/37046979_247476945980393_7284164298069245952_n.jpg?_nc_ht=instagram.fbog4-1.fna.fbcdn.net"
+                        alt=""></div>
+                <div><img
+                        src="https://instagram.fbog4-1.fna.fbcdn.net/vp/f65afb2d5c93c29f0a658396a7c5230e/5DDB404F/t51.2885-19/s150x150/37046979_247476945980393_7284164298069245952_n.jpg?_nc_ht=instagram.fbog4-1.fna.fbcdn.net"
+                        alt=""></div>
+                <div><img
+                        src="https://instagram.fbog4-1.fna.fbcdn.net/vp/f65afb2d5c93c29f0a658396a7c5230e/5DDB404F/t51.2885-19/s150x150/37046979_247476945980393_7284164298069245952_n.jpg?_nc_ht=instagram.fbog4-1.fna.fbcdn.net"
+                        alt=""></div>
+                <div><img
+                        src="https://instagram.fbog4-1.fna.fbcdn.net/vp/f65afb2d5c93c29f0a658396a7c5230e/5DDB404F/t51.2885-19/s150x150/37046979_247476945980393_7284164298069245952_n.jpg?_nc_ht=instagram.fbog4-1.fna.fbcdn.net"
+                        alt=""></div>
+                <div><img
+                        src="https://instagram.fbog4-1.fna.fbcdn.net/vp/f65afb2d5c93c29f0a658396a7c5230e/5DDB404F/t51.2885-19/s150x150/37046979_247476945980393_7284164298069245952_n.jpg?_nc_ht=instagram.fbog4-1.fna.fbcdn.net"
+                        alt=""></div>
             </div>
         </main>
     </div>
