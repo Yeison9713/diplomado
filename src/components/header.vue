@@ -9,11 +9,12 @@
 <style scoped>
     .content-header{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
-        background: #FFF;
+        background: #2F3E9E;
         box-shadow: 0px 10px 15px #ccc;
         padding: 20px 26px;
+        box-sizing: border-box;
     }
 
     .header-nav{
