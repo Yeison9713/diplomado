@@ -62,7 +62,7 @@
       </div>
     </div>
     <div class="card">
-      cambio de prueba 
+      cambio de prueba 2
     </div>
   </div>
 </template>
